@@ -4,7 +4,7 @@ export const initialTickets: Ticket[] = [
   {
     id: "1",
     title: "Ticket 1",
-    content: "First ticket",
+    content: "This is the detail for the First awesome ticket",
     status: "DONE" as const,
   },
   {

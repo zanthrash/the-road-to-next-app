@@ -1,5 +1,6 @@
 import { clsx } from "clsx";
 import { LucideSquareArrowOutUpRight } from "lucide-react";
+import { logQueue } from "next/dist/next-devtools/userspace/app/forward-logs";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

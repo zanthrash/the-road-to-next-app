@@ -13,10 +13,10 @@ type TicketItemProps = {
   isDetail?: boolean;
 };
 
-export const TicketItem = ({ ticket, isDetail }: TicketItemProps) => {
+export const TicketItem = async ({ ticket, isDetail }: TicketItemProps) => {
   const detailButton = (
     <Button variant="outline" asChild size="icon">
-      <Link href={ticketPath(ticket.id)} className="text-sm">
+      <Link prefetch href={ticketPath(ticket.id)} className="text-sm">
         <LucideSquareArrowOutUpRight className="h-4 w-4" />
       </Link>
     </Button>

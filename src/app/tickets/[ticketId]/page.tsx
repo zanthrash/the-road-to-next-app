@@ -24,4 +24,11 @@ const TicketPage = async ({ params }: TicketPageProps) => {
   );
 };
 
+// export async function generateStaticParams() {
+//   const tickets = await getTickets();
+//   return tickets.map((ticket) => ({
+//     ticketId: ticket.id,
+//   }));
+// }
+
 export default TicketPage;
